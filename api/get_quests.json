@@ -1,0 +1,52 @@
+[
+	{
+		"id": 10,
+		"question": "Вопрос 1, здесь нужно выбрать один ответ:",
+		"type": "oneselect",
+		"options": [
+			{ "id": 3, "text": "Ответ 3" },
+			{ "id": 2, "text": "Ответ 2" },
+			{ "id": 1, "text": "Ответ 1" },
+			{ "id": 4, "text": "Ответ 4" }
+		]
+	},
+	{
+		"id": 66,
+		"question": "Вопрос 2, только один ответ, он задан заранее:",
+		"type": "oneselect",
+		"options": [
+			{ "id": 6, "text": "Ответ 6" },
+			{ "id": 7, "text": "Ответ 7", "selected": true },
+			{ "id": 9, "text": "Ответ 9" },
+			{ "id": 8, "text": "Ответ 8" }
+		]
+	},
+	{
+		"id": 22,
+		"question": "Вопрос 3: нужно вписать ответ:",
+		"type": "string",
+		"written": "ОТВЕТ"
+	},
+	{
+		"id": 50,
+		"question": "Вопрос 4: выбрать один или более ответов:",
+		"type": "multiselect",
+		"options": [
+			{ "id": 3, "text": "Ответ 3" },
+			{ "id": 2, "text": "Ответ 2" },
+			{ "id": 1, "text": "Ответ 1" },
+			{ "id": 4, "text": "Ответ 4" }
+		]
+	},
+	{
+		"id": 47,
+		"question": "Вопрос 5: использование формул или картинок:",
+		"type": "multiselect",
+		"options": [
+			{ "id": 3, "text": "<img src='img/formula1.png' />", "selected": true },
+			{ "id": 2, "text": "<img src='img/formula2.jpg' />", "selected": true },
+			{ "id": 1, "text": "<img src='img/formula3.png' />" },
+			{ "id": 4, "text": "<img src='img/formula4.gif' />" }
+		]
+	}
+]

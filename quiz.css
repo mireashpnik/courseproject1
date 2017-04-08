@@ -1,0 +1,30 @@
+
+#content {
+	display: none;
+}
+
+#review {
+	display: none;
+}
+
+.row {
+	position:relative;
+	top:200px;
+}
+
+#left_menu {
+    right: 100px;
+    float: left;
+    width: 50px;
+    height: 300px;
+    position: relative;
+    top: 80px;
+}
+
+.center-block {
+	width: 400px;
+}
+
+.form-control {
+	width: 200px !important;
+}

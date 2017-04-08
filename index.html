@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Курсовая работа</title>
+		<script src="https://yastatic.net/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://yastatic.net/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="quiz.css">
+	</head>
+	<body>
+		<div class="row">
+			<div class="center-block" align="center">
+				<img width="200px" src="logo.png" />
+			</div>
+			<div class="center-block">
+			<div id="left_menu">
+				<!-- Боковое меню со списком вопросов -->
+			</div>
+			<!-- Центральная область -->
+			<div id="welcome">
+				<!-- Экран приветствия -->
+				<p class="lead">Для начала тестирования, нажмите кнопку старт.</p>
+				<button id="button_start" class="btn btn-primary">Старт</button>
+			</div>
+			<div id="content">
+				<!-- Экран вопросов и ответов -->
+				<div id="question_data"></div>
+				<div id="navigation">
+					<button id="button_back"  class="btn btn-primary">Назад</button>
+					<button id="button_submit"  class="btn btn-primary">Отправить</button>
+					<button id="button_skip"  class="btn btn-primary">Пропустить</button>
+				</div>
+			</div>
+			<div id="review">
+				<!-- Финальный обзор -->
+				<ul id="quest_list" class="list-group"></ul>
+				<button id="button_finish" class="btn btn-primary">Завершить тест</button>
+			</div>
+			</div>
+		</div>
+		<script src="quiz.js"></script>
+		<script src="quiz_buttons.js"></script>
+	</body>
+</html>

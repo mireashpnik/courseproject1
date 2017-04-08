@@ -166,6 +166,10 @@ function SendAnswer() {
 		$.each( $('#quest' + current_quest + '>form>ul>li>input:checked'), function(_, val) {
 			data['options'].push($(val).attr('id'));
 		});
+		if (data['options'].length < 1) {
+			alert("Нужно хоть что-то выбрать");
+			return;
+		}
 	}
 	console.log(data);
 
